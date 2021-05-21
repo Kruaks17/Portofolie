@@ -106,4 +106,60 @@ h1{
   color: black;
   
 }
+.ingress{
+  font-family: "ObjectSans-Regular";
+  color: #EBF5DF;
 
+  display: block;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-top:180px;
+  margin-left: 60px;
+
+  
+}
+.ingress h2{
+
+  font-size:3rem;
+  font-weight: 400;
+
+}
+
+.about-me{
+
+ color: #EBF5DF;
+ font-family: "ObjectSans-Regular";
+ font-size: 10rem;
+
+ margin-left: 60px;
+ margin-top: 500px;
+ margin-bottom: 100px;
+
+ width:80vw;
+
+}
+.mailbtn{
+
+  font-size: 3rem;
+  font-weight: 800;
+
+  cursor: pointer;
+
+  color: #EBF5DF;
+  background-color: none;
+  
+  width: 200px;
+
+  padding: 10px;
+
+  border: #EBF5DF solid 4px;
+  border-radius: 40px;
+}
+.mailbtn:hover{
+
+  border: none;
+  background-color: #EBF5DF;
+  color: black;
+}

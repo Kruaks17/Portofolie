@@ -26,7 +26,7 @@ export default function Home() {
         <p>I'm Aksel, designer + front-end developer<br></br>
         currently looking for a job.<br></br><br></br>
         At the moment I take pride in building and developing
-        digital design, brand indetity, editorial design & packaging design.
+        digital design, brand indetity, editorial design + packaging design.
        <br></br><br></br> 
         Interested in working together? <br></br><br></br>
         Let me know!

@@ -23,7 +23,7 @@ export default function Home() {
         <h1 className="overskrift">Aksel<br></br>Kruse-Jensen</h1>
       </section>
       <section className="about-me">
-        <p>I'm Aksel, designer + front-end developer<br></br>
+        <p>I'm Aksel, designer + front-end developer
         currently looking for a job.<br></br><br></br>
         At the moment I take pride in building and developing
         digital design, brand indetity, editorial design + packaging design.

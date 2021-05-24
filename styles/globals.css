@@ -43,6 +43,9 @@ h1{
 }
 .header-content{
 
+  position: sticky;
+  top:0;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,6 +54,8 @@ h1{
   margin-top: 1rem;
   margin-left: 60px;
 
+
+
   font-weight: 400;
   color: #EBF5DF;
 
@@ -58,7 +63,7 @@ h1{
 .header-content, .menu, .logo {
 
   font-family: "ObjectSans-Regular";
-  font-size: 4rem;
+  font-size: 3rem;
 
 }
 .menu{
@@ -83,7 +88,7 @@ h1{
   line-height: 10px;
 
 }
-.contact-btn{
+button{
 
   font-weight: 800;
 
@@ -99,7 +104,7 @@ h1{
   border-radius: 50px;
 
 }
-.contact-btn:hover{
+button:hover{
 
   border: none;
   background-color: #EBF5DF;
@@ -130,25 +135,26 @@ h1{
   font-weight: 400;
 
 }
-
 .about-me{
 
  color: #EBF5DF;
  font-family: "ObjectSans-Regular";
  font-size: 10rem;
 
+ line-height: 69px;
+
  margin-left: 60px;
  margin-top: 500px;
  margin-bottom: 100px;
 
  width:80vw;
-
+ 
 }
+
 .mailbtn{
 
   font-size: 3rem;
-  font-weight: 800;
-
+  
   cursor: pointer;
 
   color: #EBF5DF;
@@ -156,14 +162,4 @@ h1{
   
   width: 200px;
 
-  padding: 10px;
-
-  border: #EBF5DF solid 4px;
-  border-radius: 40px;
-}
-.mailbtn:hover{
-
-  border: none;
-  background-color: #EBF5DF;
-  color: black;
 }

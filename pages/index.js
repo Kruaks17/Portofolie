@@ -1,9 +1,12 @@
+import React from 'react';
+
 
 export default function Home() {
   return (
     <>
       <title>Portofolie</title>
-      <div className="header-content">
+      <div 
+      className="header-content">
 
         <div className="logo">AK-J</div>
 
@@ -37,3 +40,14 @@ export default function Home() {
     </>
   )
 }
+
+ const scrollHandler = () =>{
+
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+
+         document.getElementsByClassName("header-content").style.top  = "0"
+     } else {
+       document.getElementsByClassName("header-content").style.top  = "-60"
+  
+ }
+ }
